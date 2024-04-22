@@ -1,0 +1,14 @@
+{
+  "_output_dir": "/home/minder/projekty/gromobrody",
+  "_template": "gh:cjolowicz/cookiecutter-hypermodern-python",
+  "author": "Dominik Kozaczko",
+  "copyright_year": "2023",
+  "development_status": "Development Status :: 1 - Planning",
+  "email": "dominik@kozaczko.info",
+  "friendly_name": "wFirma",
+  "github_user": "dekoza",
+  "license": "MIT",
+  "package_name": "wfirma",
+  "project_name": "python-wfirma",
+  "version": "0.0.0"
+}

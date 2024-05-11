@@ -1145,6 +1145,25 @@ files = [
 typing-extensions = ">=4.6.0,<4.7.0 || >4.7.0"
 
 [[package]]
+name = "pydantic-xml"
+version = "2.10.0"
+description = "pydantic xml extension"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "pydantic_xml-2.10.0-py3-none-any.whl", hash = "sha256:f47b4cdd639a81c2bf572fae66acf1e9589f8ff9a19bc62646d63c8fab27ff87"},
+    {file = "pydantic_xml-2.10.0.tar.gz", hash = "sha256:736835bad0cacdff41b322f2369eb71ff7956227c211ecb60c42338dc8956cbc"},
+]
+
+[package.dependencies]
+pydantic = ">=2.6.0"
+pydantic-core = ">=2.15.0"
+
+[package.extras]
+docs = ["Sphinx (>=5.3.0,<6.0.0)", "furo (>=2022.12.7,<2023.0.0)", "sphinx-copybutton (>=0.5.1,<0.6.0)", "sphinx_design (>=0.3.0,<0.4.0)", "toml (>=0.10.2,<0.11.0)"]
+lxml = ["lxml (>=4.9.0)"]
+
+[[package]]
 name = "pyflakes"
 version = "3.2.0"
 description = "passive checker of Python programs"
@@ -2026,4 +2045,4 @@ tests-strict = ["pytest (==4.6.0)", "pytest (==4.6.0)", "pytest (==6.2.5)", "pyt
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "5e2486b427306fbefe777918ede93447ad45464f290c2ddb57d205a77bf03efa"
+content-hash = "d59b04455386d541cf68300064d1ba1958805ed4c8f8e8e0aa3f511a71ef19c4"

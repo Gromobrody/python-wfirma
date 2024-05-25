@@ -10,7 +10,7 @@
 [![Codecov](https://codecov.io/gh/dekoza/python-wfirma/branch/main/graph/badge.svg)][codecov]
 
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][pre-commit]
-[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)][black]
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)][ruff]
 
 [pypi_]: https://pypi.org/project/python-wfirma/
 [status]: https://pypi.org/project/python-wfirma/
@@ -19,7 +19,7 @@
 [tests]: https://github.com/dekoza/python-wfirma/actions?workflow=Tests
 [codecov]: https://app.codecov.io/gh/dekoza/python-wfirma
 [pre-commit]: https://github.com/pre-commit/pre-commit
-[black]: https://github.com/psf/black
+[ruff]: https://github.com/astral-sh/ruff
 
 ## Features
 
